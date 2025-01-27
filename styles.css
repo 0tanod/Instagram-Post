@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .post {
+    background-color: white;
+    width: 400px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    padding-left: 10px;
+  }
+  
+  .title-text {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    display: block;
+    color: #888;
+  }
+  
+  .options {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 24px;
+  }
+  
+  .actions span {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .likes {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .likes strong {
+    font-weight: bold;
+  }
+  
+  .description {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
